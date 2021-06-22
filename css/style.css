@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(../images/1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+
+}
+ul li{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 15px;
+
+}
+ul li a{
+	text-decoration: none;
+	color: lightgray;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 1s ease;
+}
+ul li a:hover{
+	background-color: lightskyblue; color: blue;
+}
+ul li.active a{
+	color: white; background-color: lightskyblue;
+}
+.abc{
+	max-width: 1200px;
+	margin: auto;
+
+}
+.title{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h2{
+	font-size: 40px; color: white;
+}
+.title h4{
+	font-size: 30px; color: white; margin-left: 50px;
+}
+.button{
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.btn{
+	border: 1px solid white ;
+	padding: 5px 25px;
+	color: white;
+	text-decoration: none;
+	transition: 1s ease;
+
+}
+.btn:hover{
+	background-color: lightskyblue; color: blue;
+}
